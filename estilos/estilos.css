@@ -35,3 +35,81 @@ ul li a:hover {
 p {
   color: #eee;
 }
+
+.principal {
+  width: 70%;
+  background-color: #713e3e;
+}
+
+@media screen and (max-width: 1000px) {
+  .principal {
+    width: 70%;
+    background-color: #713e3e;
+  }
+
+  nav {
+    background-color: antiquewhite;
+    margin: 0px;
+    padding: 5px;
+  }
+
+  ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 3px;
+    padding: 10px;
+    background-color: rgb(70, 101, 101);
+    color: #cfcaca;
+  }
+
+  a {
+    text-decoration: none;
+    list-style: none;
+  }
+
+  ul li a:hover {
+    background-color: rgb(46, 65, 65);
+    color: #cccccc;
+  }
+
+  p {
+    color: #eee;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .principal {
+    width: 70%;
+    background-color: #713e3e;
+    display: flex;
+  }
+
+  nav {
+    background-color: antiquewhite;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 3px;
+    padding: 10px;
+    background-color: rgb(70, 101, 101);
+    color: #cfcaca;
+  }
+
+  a {
+    text-decoration: none;
+    list-style: none;
+  }
+
+  ul li a:hover {
+    background-color: rgb(46, 65, 65);
+    color: #cccccc;
+  }
+
+  p {
+    color: #eee;
+  }
+}
