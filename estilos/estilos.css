@@ -1,8 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Doto:wght,ROND@100..900,100&display=swap");
+
 body {
   background-image: url("./𝐀𝐈-𝐈𝐦𝐚𝐠𝐞𝐬\ 𝐚𝐧𝐝\ 𝐏𝐢𝐜𝐭𝐮𝐫𝐞𝐬.jpeg");
   background-size: cover;
   margin-right: 10px;
   margin-left: 10px;
+}
+
+nav {
+  background-color: antiquewhite;
+  margin: 0px;
+  padding: 5px;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 3px;
+  padding: 10px;
+  background-color: rgb(70, 101, 101);
+  color: #cfcaca;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+ul li a:hover {
+  background-color: rgb(46, 65, 65);
+  color: #cccccc;
 }
 
 p {
